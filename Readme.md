@@ -1,6 +1,6 @@
-# generator-django-axiacore 
+# TONBET
 
-Base template for django projects at [AxiaCore](http://axiacore.com), includes Gulp build with Compass and Live Reload. Also browser dependencies using Bower.
+It includes Gulp build with Compass and Live Reload. Also browser dependencies using Bower.
 
 [Project Page](http://axiacore.github.io/generator-django-axiacore/)
 
@@ -16,7 +16,7 @@ Base template for django projects at [AxiaCore](http://axiacore.com), includes G
 $ mkdir my-awesome-project && cd my-awesome-project
 
 # Install yeoman and django-generator
-$ sudo npm install -g yo generator-django-axiacore
+$ sudo npm install -g yo TONBET
 
 # Use the generator
 $ yo django-axiacore
@@ -35,16 +35,12 @@ $ ./manage.py runserver 0.0.0.0:8000
 
 You can setup the project to use [Materialize](http://materializecss.com/) or [Bootstrap](getbootstrap.com).
 
-![setup](https://raw.githubusercontent.com/AxiaCore/generator-django-axiacore/master/images/materialize.png)
-
 ### Subgenerators
 
 Using the subgenerator *startapp* `yo django-axiacore:startapp` you can create a new app with scaffold *Views* and *Urls*.
 
 ```bash
 $ yo django-axiacore:startapp
-```
-![startapp](https://raw.githubusercontent.com/AxiaCore/generator-django-axiacore/master/images/startapp.png)
 
 ### Contributing
 
