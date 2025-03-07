@@ -1,4 +1,4 @@
-# generator-django-axiacore 
+# TONBET
 
 Base template for django projects at [AxiaCore](http://axiacore.com), includes Gulp build with Compass and Live Reload. Also browser dependencies using Bower.
 
@@ -16,10 +16,10 @@ Base template for django projects at [AxiaCore](http://axiacore.com), includes G
 $ mkdir my-awesome-project && cd my-awesome-project
 
 # Install yeoman and django-generator
-$ sudo npm install -g yo generator-django-axiacore
+$ sudo npm install -g yo TONBET
 
 # Use the generator
-$ yo django-axiacore
+$ yo TONBET
 
 # Fire up your new enviroment
 $ workon my-awesome-project_app
@@ -35,16 +35,11 @@ $ ./manage.py runserver 0.0.0.0:8000
 
 You can setup the project to use [Materialize](http://materializecss.com/) or [Bootstrap](getbootstrap.com).
 
-![setup](https://raw.githubusercontent.com/AxiaCore/generator-django-axiacore/master/images/materialize.png)
-
 ### Subgenerators
 
-Using the subgenerator *startapp* `yo django-axiacore:startapp` you can create a new app with scaffold *Views* and *Urls*.
-
 ```bash
-$ yo django-axiacore:startapp
+$ yo TONBET
 ```
-![startapp](https://raw.githubusercontent.com/AxiaCore/generator-django-axiacore/master/images/startapp.png)
 
 ### Contributing
 
@@ -52,7 +47,7 @@ We love contributions, so, don't hesitate in creating an issue or sending us a p
 
 ### Development
 
-The main generator [file](https://github.com/AxiaCore/generator-django-axiacore/blob/master/app/index.coffee) is written in [CoffeeScript](http://coffeescript.org), and we use [Gulp](http://gulpjs.com/) to compile it. 
+is written in [CoffeeScript](http://coffeescript.org), and we use [Gulp](http://gulpjs.com/) to compile it. 
 To set the generator up just clone the repository and run:
 
 ```bash
