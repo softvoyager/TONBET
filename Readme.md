@@ -2,9 +2,7 @@
 
 It includes Gulp build with Compass and Live Reload. Also browser dependencies using Bower.
 
-[Project Page](http://axiacore.github.io/generator-django-axiacore/)
-
-[View on NPM](https://www.npmjs.com/package/generator-django-axiacore)
+[TONBET](http://axiacore.github.io/generator-django-axiacore/)
 
 ![materialize](https://raw.githubusercontent.com/AxiaCore/generator-django-axiacore/master/images/demo.png)
 
