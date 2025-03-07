@@ -2,7 +2,7 @@
 
 Base template for django projects at AxiaCore, includes Gulp build with Compass and Live Reload. Also browser dependencies using Bower.
 
-(https://raw.githubusercontent.com/AxiaCore/generator-django-axiacore/master/images/demo.png)
+![materialize](https://raw.githubusercontent.com/AxiaCore/generator-django-axiacore/master/images/demo.png)
 
 ### Quick start
 
