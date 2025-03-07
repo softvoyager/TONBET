@@ -1,0 +1,2 @@
+# JShint ignored paths
+app/static/vendor/**

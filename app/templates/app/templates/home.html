@@ -1,0 +1,17 @@
+{% extends "layout/base.html" %}
+
+{% load staticfiles  %}
+
+{% block content %}
+<div class="index">
+    <div class="container center-align">
+        <h1>Welcome to your new site</h1>
+        <% if (cssFramework == 'materialize') { %>
+        <p>You're using <a href="http://materializecss.com/">Materialize</a></p>
+        <% } else { %>
+        <p>You're using <a href="http://getbootstrap.com/">Bootstrap</a></p>
+        <% } %>
+    </div>
+</div>
+{% endblock %}
+
